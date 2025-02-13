@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font: 14px arial;
+}
+.header {
+  background-image: url(images/bg1.jpg);
+  background-size: cover;
+  height: 686px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.contact ul,
+.register ul {
+  padding-left: 10px;
+}
+
+.contact ul li,
+.register ul li {
+  display: inline-block;
+  padding-left: 10px;
+  color: white;
+  font-size: 15px;
+
+  font-weight: bold;
+}
+.contact {
+  float: left;
+}
+
+.register {
+  float: right;
+  padding-right: 20px;
+}
+
+.register li a,
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.register li {
+  margin-left: 5px;
+  padding-right: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.register li a:hover {
+  color: greenyellow;
+}
+.contacticon img {
+  padding-right: 7px;
+  vertical-align: bottom;
+}
+
+.nav-info {
+  height: 50px;
+  border-bottom: 0.5px solid white;
+}
+.nav-bar {
+  border-bottom: 1px solid white;
+}
+
+.nav-list {
+  display: inline-block;
+}
+h1 {
+  padding-left: 25px;
+  font-size: 35px;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+.nav-list ul li {
+  display: inline-block;
+  line-height: -10px;
+}
+
+.nav-list ul {
+  text-align: center;
+  margin-top: 0px;
+}
