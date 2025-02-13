@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font: 14px arial;
+  height: 1000px;
 }
 .header {
   background-image: url(images/bg1.jpg);
@@ -31,6 +32,8 @@ body {
 .register {
   float: right;
   padding-right: 20px;
+  padding-bottom: 5px;
+  line-height: 20px;
 }
 
 .register li a,
@@ -44,6 +47,8 @@ h1 a {
   padding-right: 10px;
   border: 1px solid white;
   border-radius: 20px;
+  height: 20px;
+  padding-top: 2px;
 }
 
 .register li a:hover {
@@ -52,6 +57,7 @@ h1 a {
 .contacticon img {
   padding-right: 7px;
   vertical-align: bottom;
+  padding-bottom: 2px;
 }
 
 .nav-info {
@@ -62,9 +68,6 @@ h1 a {
   border-bottom: 1px solid white;
 }
 
-.nav-list {
-  display: inline-block;
-}
 h1 {
   padding-left: 25px;
   font-size: 35px;
@@ -74,12 +77,37 @@ h1 {
   display: inline-block;
 }
 
+.nav-list {
+  float: right;
+  position: relative;
+  padding-top: 33px;
+  left: 190px;
+}
 .nav-list ul li {
   display: inline-block;
-  line-height: -10px;
+
+  bottom: 6px;
+  font-size: 18px;
+  color: white;
+  padding-right: 23px;
+  line-height: 15px;
 }
 
 .nav-list ul {
-  text-align: center;
   margin-top: 0px;
+}
+.nav-list .home a {
+  color: greenyellow;
+}
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+.nav-list a:hover {
+  color: greenyellow;
+}
+
+.salam {
+  text-align: center;
+  line-height: ;
 }
